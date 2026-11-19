@@ -64,7 +64,7 @@ O script realiza as seguintes etapas:
 - **Monitoramento**: instala o script em `/usr/local/bin/citizentech-monitor.sh`, cria os limites em `/etc/citizentech/monitor.conf` e inicia o serviço `citizentech-monitor.service`.
 
 Evidência:
-![alt text](Configuração_inicial.png)
+[![alt text](Configuração_inicial.png)](https://github.com/Vinicius-Prestes/GS-OS-02/blob/main/assets/API_Health.png)
 
 ---
 
