@@ -173,5 +173,6 @@ Para consultar os logs rapidamente:
 
 ```bash
 sudo bash infra/simular_falhas.sh --ver-logs
-```<img width="1344" height="492" alt="logs" src="https://github.com/user-attachments/assets/98c72d28-5c9c-4b13-b4cf-d0e63e2227bd" />
+```
+<img width="1344" height="492" alt="logs" src="https://github.com/user-attachments/assets/98c72d28-5c9c-4b13-b4cf-d0e63e2227bd" />
 
