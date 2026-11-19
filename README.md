@@ -64,7 +64,7 @@ O script realiza as seguintes etapas:
 - **Monitoramento**: instala o script em `/usr/local/bin/citizentech-monitor.sh`, cria os limites em `/etc/citizentech/monitor.conf` e inicia o serviço `citizentech-monitor.service`.
 
 Evidência:
-[![alt text](Configuração_inicial.png)](https://github.com/Vinicius-Prestes/GS-OS-02/blob/main/assets/API_Health.png)
+<img width="1355" height="628" alt="Configuração_inicial" src="https://github.com/user-attachments/assets/bac92b90-c5f7-46e8-b967-ffec3a7b14c1" />
 
 ---
 
@@ -79,9 +79,9 @@ getent hosts citizentech.local
 resolvectl status
 sudo ufw status
 ```
-![alt text](Rede.png)
+<img width="976" height="449" alt="Rede" src="https://github.com/user-attachments/assets/0bbe8203-88be-4b65-b358-5e678a1de5ad" />
 
-![alt text](Rede2.png)
+<img width="977" height="666" alt="Rede2" src="https://github.com/user-attachments/assets/1dee4313-f649-4ed6-b4bb-4bac38999f64" />
 
 ### Usuário, diretórios e variáveis de ambiente
 ```bash
@@ -110,7 +110,9 @@ sudo systemctl status citizentech-api.service
 # Execução manual com saída na tela
 sudo /usr/local/bin/citizentech-monitor.sh --status
 
-d:\Área de trabalho\infra\assets\API_Health.png
+<img width="1333" height="438" alt="API_Health" src="https://github.com/user-attachments/assets/dfbb4574-8ab4-4984-a93f-32acf3744b35" />
+
+
 # Parar, iniciar e reiniciar o serviço
 
 sudo systemctl stop citizentech-monitor.service
@@ -128,9 +130,10 @@ Para abrir o menu de testes de falha:
 sudo bash infra/simular_falhas.sh
 ```
 
-![alt text](Captura_falha.png)
+<img width="982" height="680" alt="Captura_falha" src="https://github.com/user-attachments/assets/dcbbfa71-0f0a-42f7-8e24-2aa51fbbba9c" />
 
-![alt text](Captura_falha2.png)
+<img width="1349" height="554" alt="Captura_falha2" src="https://github.com/user-attachments/assets/f72ea1cd-8251-4946-9b6f-1bdef780b88f" />
+
 
 
 Ou rodar cada teste diretamente:
@@ -170,5 +173,5 @@ Para consultar os logs rapidamente:
 
 ```bash
 sudo bash infra/simular_falhas.sh --ver-logs
-```
-![alt text](logs.png)
+```<img width="1344" height="492" alt="logs" src="https://github.com/user-attachments/assets/98c72d28-5c9c-4b13-b4cf-d0e63e2227bd" />
+
